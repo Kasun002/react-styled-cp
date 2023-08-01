@@ -15,7 +15,7 @@ const PropsStyled = () => {
     return (
         <div>
             <Button>Normal</Button>
-            <Button $primary>Primary</Button>
+            <Button $primary>Primary Props button</Button>
         </div>
     )
 }

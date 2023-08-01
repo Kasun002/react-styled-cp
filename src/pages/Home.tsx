@@ -1,3 +1,4 @@
+import ExtendingStyles from "../components/Extending";
 import General from "../components/General";
 import PropsStyled from "../components/Props";
 
@@ -6,6 +7,7 @@ const HomePage: React.FC = () => {
         <>
             <General></General>
             <PropsStyled></PropsStyled>
+            <ExtendingStyles></ExtendingStyles>
         </>
     )
 }

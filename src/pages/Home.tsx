@@ -1,5 +1,6 @@
 import AnyComponent from "../components/AnyComponent";
 import ChangeType from "../components/ChangeType";
+import Combinators from "../components/Combinaters";
 import ExtendingStyles from "../components/Extending";
 import General from "../components/General";
 import PassProps from "../components/PassProps";
@@ -20,6 +21,8 @@ const HomePage: React.FC = () => {
             <AnyComponent></AnyComponent>
             <h3>Pass props</h3>
             <PassProps></PassProps>
+            <h3>Combinators</h3>
+            <Combinators></Combinators>
         </>
     )
 }

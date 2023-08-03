@@ -7,7 +7,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.h2`
-    ont-size: 1.5em;
+    font-size: 1.5em;
     text-align: center;
     color: #BF4F74;
 `;

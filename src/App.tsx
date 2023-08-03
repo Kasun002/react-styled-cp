@@ -1,7 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import AppRouter from './App.Router';
+import './App.css';
 
 function App() {
   return (

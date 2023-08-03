@@ -2,6 +2,7 @@ import AnyComponent from "../components/AnyComponent";
 import ChangeType from "../components/ChangeType";
 import ExtendingStyles from "../components/Extending";
 import General from "../components/General";
+import PassProps from "../components/PassProps";
 import PropsStyled from "../components/Props";
 
 const HomePage: React.FC = () => {
@@ -17,6 +18,8 @@ const HomePage: React.FC = () => {
             <ChangeType></ChangeType>
             <h3>Style any component</h3>
             <AnyComponent></AnyComponent>
+            <h3>Pass props</h3>
+            <PassProps></PassProps>
         </>
     )
 }

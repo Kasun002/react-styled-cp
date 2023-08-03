@@ -1,6 +1,6 @@
 import AnyComponent from "../components/AnyComponent";
 import ChangeType from "../components/ChangeType";
-import Combinators from "../components/Combinaters";
+import Combinators from "../components/Combinators";
 import ExtendingStyles from "../components/Extending";
 import General from "../components/General";
 import PassProps from "../components/PassProps";
